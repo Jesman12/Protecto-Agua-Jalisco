@@ -52,7 +52,7 @@ export default function TabLayout() {
         name="two"
         options={{
           title: 'ESTADISTICAS',
-          tabBarIcon: ({ color }) => <TabBarIcon name="chart-simple" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="bars" color={color} />,
         }}
       />
     </Tabs>
